@@ -73,7 +73,7 @@
 Например, команда получения списка доступных пользователю ящиков транслируется в следующий HTTP-запрос:
 ::
 
-    POST /GetMyOrganizations HTTP/1.1
+    GET /GetMyOrganizations HTTP/1.1
     Host: diadoc-api.kontur.ru
     Authorization: DiadocAuth ddauth_api_client_id=testClient-8ee1638deae84c86b8e2069955c2825a,ddauth_token=3IU0iPhuhHPZ6lrlumGz4pICEedhQ1XmlMN1Pk8z0DJ51MXkcTi6Q3CODCC4xTMsjPFfhK6XM4kCJ4JJ42hlD499/Ui5WSq6lrPwcdp4IIKswVUwyE0ZiwhlpeOwRjNrvUX1yPrxr0dY8a0w8ePsc1DG8HAlZce8a0hZiWylMqu23d/vfzRFuA==
         
